@@ -12,11 +12,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <h1 style={styles}>Hola {nombre} como estás?</h1>
       <h2>{sumar()}</h2>
       <h3>{nombre === "Juan" ? "Hola" : "Chau"}</h3>
-      <Saludar/>
+      <Saludar />
     </div>
   );
 };
