@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Saludar from "./Saludar";
 
 let styles = { color: "pink", background: "blue" };
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <h1 style={styles}>Hola {nombre} como estás?</h1>
       <h2>{sumar()}</h2>
       <h3>{nombre === "Juan" ? "Hola" : "Chau"}</h3>
+      <Saludar/>
     </div>
   );
 };
